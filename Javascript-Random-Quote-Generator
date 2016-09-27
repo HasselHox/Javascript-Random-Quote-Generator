@@ -1,4 +1,4 @@
-// Start copying past this line
+// Start copying one past this line
 
 <script language="JavaScript"> 
 var Quote =new Array()
@@ -6,8 +6,8 @@ var Quote =new Array()
 	Quote[0] ="XYZ";
 	
 
-var i = Quote.length; 
-var wQuote=Math.round(Math.random()*(i-1));
+var a = Quote.length; 
+var wQuote=Math.round(Math.random()*(a-1));
 function showQuote(){document.write(Quote[wQuote]);}
 showQuote();
 </script>
